@@ -20,7 +20,7 @@ class ApiTestPostEcho {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("example data"))
+                .body("data", equalTo("example"))
         ;
     }
 }
